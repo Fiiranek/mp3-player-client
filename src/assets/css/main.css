@@ -1,0 +1,30 @@
+:root {
+  --white: #ffffff;
+  --hoverWhite: #ddd;
+}
+button:focus{
+    outline:none;
+}
+.player-panel-btn {
+  transition: 0.5s;
+  font-size: 1.2rem;
+  background: transparent;
+  border: none;
+  border-radius: 100px;
+  padding: 1rem 1.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.5rem;
+}
+.player-panel-btn-side {
+  color: white;
+}
+.player-panel-btn-side:hover {
+  background: rgb(59, 59, 59);
+  color: #ddd;
+  transition: 0.5s;
+}
+.player-panel-btn:hover {
+  cursor: pointer;
+}
